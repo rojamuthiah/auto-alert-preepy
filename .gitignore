@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+backend/logs/
+
+# Database / local data
+*.db
+*.sqlite3
+*.dump
+
+# Python tooling/cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage.xml
+htmlcov/
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/coverage/
+
+# Build / packaging artifacts
+build/
+dist/
+out/
+coverage/
+*.egg-info/
+
+# OS-generated files
+Desktop.ini
+$RECYCLE.BIN/
+*.orig
+*.tmp
+*.temp
+
+# Secrets and certs
+*.pem
+*.key
+*.crt
+
+# Keep tracked example files
+!frontend/components.json
